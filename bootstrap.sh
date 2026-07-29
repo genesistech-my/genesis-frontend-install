@@ -9,7 +9,7 @@
 set -euo pipefail
 
 REPO="genesistech-my/genesis-frontend"
-REF="${GENESIS_REF:-v0.8.0}"
+REF="${GENESIS_REF:-v0.11.0}"
 WORK="$(mktemp -d /tmp/genesis-console.XXXXXX)"
 cleanup(){ rm -rf "$WORK"; }
 trap cleanup EXIT
