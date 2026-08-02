@@ -17,7 +17,7 @@
 set -euo pipefail
 
 REPO="genesistech-my/genesis-frontend"
-REF="${GENESIS_REF:-v0.19.2}"
+REF="${GENESIS_REF:-v0.20.0}"
 ACTION="${GENESIS_ACTION:-install}"
 WORK="$(mktemp -d /tmp/genesis-console.XXXXXX)"
 cleanup(){ rm -rf "$WORK"; }
